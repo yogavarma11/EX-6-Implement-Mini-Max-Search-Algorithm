@@ -1,4 +1,4 @@
-ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
+<h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1>h1>
 
 Name: 
 Register Number: 
