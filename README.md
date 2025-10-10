@@ -1,11 +1,11 @@
-<h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1>h1>
+<h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1>
 
 Name: 
 Register Number: 
 Aim:
 Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
 
-Theory and Procedure:
+## Theory and Procedure:
 To begin, let's start by defining what it means to play a perfect game of tic tac toe:
 If I play perfectly, every time I play I will either win the game, or I will draw the game. Furthermore if I play against another perfect player, I will always draw the game.
 
