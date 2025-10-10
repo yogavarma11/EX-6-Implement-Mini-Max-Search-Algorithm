@@ -15,13 +15,16 @@ I win, hurray! I get 10 points! I lose, shit. I lose 10 points (because the othe
 
 Looking at a Brief Example To apply this, let's take an example from near the end of a game, where it is my turn. I am X. My goal here, obviously, is to maximize my end game score.
 
-image
+<img width="596" height="393" alt="image" src="https://github.com/user-attachments/assets/e4245f2a-c76b-481a-b35e-a0e9864a65a5" />
+<img width="654" height="316" alt="image" src="https://github.com/user-attachments/assets/874eb4a4-f924-4207-af63-82e84d394f3a" />
+
+
 
 If the top of this image represents the state of the game I see when it is my turn, then I have some choices to make, there are three places I can play, one of which clearly results in me wining and earning the 10 points. If I don't make that move, O could very easily win. And I don't want O to win, so my goal here, as the first player, should be to pick the maximum scoring move.
 
 But What About O? What do we know about O? Well we should assume that O is also playing to win this game, but relative to us, the first player, O wants obviously wants to chose the move that results in the worst score for us, it wants to pick a move that would minimize our ultimate score. Let's look at things from O's perspective, starting with the two other game states from above in which we don't immediately win:
 
-image
+<img width="836" height="529" alt="image" src="https://github.com/user-attachments/assets/d15899c4-944c-40e6-899a-c8b6299612d3" />
 
 The choice is clear, O would pick any of the moves that result in a score of -10.
 
@@ -33,7 +36,10 @@ If the game is over, return the score from X's perspective. Otherwise get a list
 
 Let's walk through the algorithm's execution with the full move tree, and show why, algorithmically, the instant winning move will be picked:
 
-image
+<img width="855" height="425" alt="image" src="https://github.com/user-attachments/assets/35c2d317-218d-4bb4-86e2-d33e03dec166" />
+<img width="654" height="316" alt="image" src="https://github.com/user-attachments/assets/fe422ee1-72af-488b-8924-9e2a39cd6dcc" />
+
+
 
 It's X's turn in state 1. X generates the states 2, 3, and 4 and calls minimax on those states.
 State 2 pushes the score of +10 to state 1's score list, because the game is in an end state.
