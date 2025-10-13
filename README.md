@@ -1,6 +1,6 @@
 <h1>ExpNo 6 : Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name:  ABINAYA A         </h3>
-<h3>Register Number: 212224230004        </h3>
+<h3>Name:      </h3>
+<h3>Register Number:       </h3>
 <H3>Aim:</H3>
 <p>
     Implement Minimax Search Algorithm for a Simple TIC-TAC-TOE game
