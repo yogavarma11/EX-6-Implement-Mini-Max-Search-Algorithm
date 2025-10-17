@@ -133,7 +133,7 @@ def minimax(curDepth, nodeIndex, maxTurn, scores, targetDepth, alpha, beta):
 
  scores = [3, 5, 6, 9, 1, 2, 0, -1]
     targetDepth = 3  # Example target depth
-
+ 
     # Start Minimax from the root with initial alpha and beta values
     best_value = minimax(0, 0, True, scores, targetDepth, -math.inf, math.inf)
     print("The optimal value is:", best_value)
